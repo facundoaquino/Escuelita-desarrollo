@@ -1,0 +1,12 @@
+.box1 {
+	color: black;
+}
+
+.box1 {
+	color: yellow;
+}
+
+div {
+	/* font-size: 40px; */
+	color: black !important;
+}
