@@ -1,12 +1,12 @@
-.box1 {
+.title {
 	color: black;
 }
 
-.box1 {
-	color: yellow;
+.title {
+	color: rgb(77, 65, 245);
 }
 
-div {
+h2 {
 	/* font-size: 40px; */
-	color: black !important;
+	color: black;
 }
