@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentacion Portabilidad BO</title>
+</head>
+<body>
+    <h1>Documentacion portabilidad BO</h1>
+    <h3>Formulario de Busqueda</h3>
+    <br>
+    <!--Aqui se debe poner la tabla donde guardamos la informacion-->
+        <form action="">
+        <!--Menú desplegable con entidades-->
+        <select name="Entidades">
+            <option value="#">Elegir Entidad---</option>
+            <option value="Personal">Personal</option>
+            <!--SubMenú desplegable con nombres de entidades "no funcionó"-->
+                <!--<select name="Personal">
+                    <option value="Telefonico">Call Center Caballito</option>
+                    <option value="Presencial">Plazo Oeste</option>
+                </select>-->
+            <option value="Alcanzo">Alcanzo</option>
+            <option value="Conecta">Conecta</option>
+        </select>
+        <!--Para habilitar la busqueda-->
+        <li><label for="password"><Strong>Contraseña: </Strong>></label></li>
+        <input type="password" id="password" name="password">
+    <hr><br>
+<!--Comienzo del formulario de relleno-->
+<ul>
+    <li><label for="Sexo"><strong>Sexo:</strong></label></li>
+    <div>Hombre</div>
+        <input type="radio" name="Sexo" Value="hombre"/>
+    <div>Mujer</div>
+        <input type="radio" name="Sexo" Value="mujer"/>
+    <hr>
+    <br>
+    <li><label for="TipoDoc"><strong>Tipo de Documentación:</strong></label></li>
+    <div>DNI</div>
+    <input type="radio" name="TipoDoc" Value="DNI"/>
+    <div>Pasaporte</div>
+    <input type="radio" name="TipoDoc" Value="Pasaporte"/>
+    <div>CUIT</div>
+    <input type="radio" name="TipoDoc" Value="CUIT"/>
+    <hr>
+    <br>
+    <li><label for="Documento"><Strong>Documento:</Strong>></label></li>
+        <input type="text" id="Documento" name="Doc">
+    <br>
+</ul>
+<!--BOTON-->
+        <input type="submit" value="Buscar">
+<!--BOTON-->
+    </form>
+</body>
+</html>
