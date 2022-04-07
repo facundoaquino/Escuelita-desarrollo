@@ -7,6 +7,10 @@
     <title>Documentacion Portabilidad BO</title>
 </head>
 <body>
+    <a href="#boton">Ir a Boton de Envio de Formulario</a><br>
+    <a href="#video">Ir a Video Explicativo</a><br>
+    <a href="#audio">Ir a Audio</a><br>
+
     <h1>Documentacion portabilidad BO</h1>
     <h3>Formulario de Busqueda</h3>
     <br>
@@ -49,10 +53,33 @@
     <li><label for="Documento"><Strong>Documento:</Strong>></label></li>
         <input type="text" id="Documento" name="Doc">
     <br>
+    <fieldset>
+        <legend> Talle de remera: </legend>
+            <select>
+                <option value="Talle chico">S</option>
+                <option value="Talle Mediano">M</option>
+                <option value="Talle Grande">L</option>
+            </select>        
+    </fieldset>
 </ul>
+<div id="BOTON">
 <!--BOTON-->
         <input type="submit" value="Buscar">
 <!--BOTON-->
+</div>
     </form>
+<div id="video">
+<h1>Video explicativa</h1>
+    <video src="Imagenes y Audio/mov_bbb.mp4" controls>
+        Video de documentación <code>Video</code>
+    </video>
+</div>
+<div id="audio"></div>
+<h1>Audio Relajante</h1>
+<audio src="Imagenes y Audio/Bryant Myers – Relax.mp3".volume=0.5 controls>
+    
+</audio>
+</div>
 </body>
+
 </html>
