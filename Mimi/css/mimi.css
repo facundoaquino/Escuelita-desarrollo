@@ -1,22 +1,42 @@
-.mono{
-    font-size: large;
-    color: red;
-    color: gray;
-}
-#audio{
-    background-color: aqua;
-    color:blueviolet
+* {
+	font-family: 'Lato', sans-serif;
 }
 
-ol li{color: blue;}
-
-h2{color:aqua; font-size: x-large;}
-
-#ALOCADO{
-    color: green;
-    font-size: 30px;
+.mono {
+	font-size: large;
+	color: red;
+	color: gray;
+}
+#audio {
+	background-color: aqua;
+	color: blueviolet;
 }
 
-strong{
-    color:red;
+ol li {
+	color: blue;
+}
+
+h2 {
+	color: aqua;
+	font-size: x-large;
+}
+
+#ALOCADO {
+	color: green;
+	font-size: 30px;
+}
+
+strong {
+	color: red;
+}
+.title {
+	width: 200px;
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 10px;
+}
+
+.bold-text {
+	font-weight: 700;
 }
