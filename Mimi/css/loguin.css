@@ -1,0 +1,9 @@
+.cabeza{
+    background-color: #fff159;
+    padding: 45px; /*PARA AGRANDAR O ACHICAR LO QUE OCUPE*/
+    }
+
+.imge{
+    padding-left: -900px;
+    border-left: 900cm;
+}
