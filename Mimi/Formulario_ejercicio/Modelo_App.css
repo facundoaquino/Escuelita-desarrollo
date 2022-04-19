@@ -1,0 +1,43 @@
+#btn_adj{
+    position:relative;
+    margin:5%;
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: coral;
+}
+
+#img_form{
+    position: relative;
+    text-align: center;
+    left:100px;
+    width: 25%;
+    height: 20%;
+    border-color: black;
+    border-style:groove;
+}
+
+#form_ub{
+    position: relative;
+    padding-left: 30%;
+}
+
+#delineado{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 50%;
+    padding-right: 10cm;
+}
+#btn_enviar{
+    text-align: center;
+    position:relative;
+    margin:30px;
+    padding: 10px;
+    width: 150px;
+    background-color:sienna;
+}
+#inf_btn{
+    margin-top: 10px;
+    font-family:'Times New Roman', Times, serif
+}
+
