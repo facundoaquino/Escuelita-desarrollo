@@ -1,9 +1,43 @@
-.cabeza{
+/*.cabeza{
     background-color: #fff159;
-    padding: 45px; /*PARA AGRANDAR O ACHICAR LO QUE OCUPE*/
-    }
-
+    /*padding: 45px; /*PARA AGRANDAR O ACHICAR LO QUE OCUPE*/
 .imge{
-    padding-left: -900px;
-    border-left: 900cm;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.Logo_altura{
+    margin-top: 100px;
+}
+#cuadrado{
+    position: absolute;
+    width: 400px; 
+    height: 400px; 
+    text-align: left;
+    border: 3px solid transparent;
+    background-color: white;
+    margin-left: 450px;
+}
+.txtcuadrado{
+    padding: 60px;
+}
+#body{
+    background-color: lightgray;
+    position: relative;
+}
+#head{
+    position: relative;
+    background-color: #fff159;
+    padding: 60px;
+}
+.central{
+    text-align: center;
+    margin: 50px;
+}
+.foter{
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+header{
+    background-color: #fff159;
 }
