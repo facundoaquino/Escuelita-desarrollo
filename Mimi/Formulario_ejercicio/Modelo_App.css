@@ -6,26 +6,23 @@
     width: 150px;
     background-color: coral;
 }
-
 #img_form{
     position: relative;
     text-align: center;
     left:100px;
-    width: 25%;
-    height: 20%;
+    width: 150px;
+    height: 200px;
     border-color: black;
     border-style:groove;
 }
-
 #form_ub{
     position: relative;
     padding-left: 30%;
 }
-
 #delineado{
     text-align: center;
     margin-left: 30%;
-    margin-right: 50%;
+    margin-right: 50cm;
     padding-right: 10cm;
 }
 #btn_enviar{
@@ -38,6 +35,6 @@
 }
 #inf_btn{
     margin-top: 10px;
-    font-family:'Times New Roman', Times, serif
+    font-family: 'Roboto Mono', monospace;
 }
 
