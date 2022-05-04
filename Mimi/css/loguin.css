@@ -9,7 +9,7 @@
     margin-top: 100px;
 }
 #cuadrado{
-    /*position: absolute;*/
+    position: absolute;
     width: 400px; 
     height: 400px; 
     text-align: left;
