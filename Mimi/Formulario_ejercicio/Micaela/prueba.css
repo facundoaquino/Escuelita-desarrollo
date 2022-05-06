@@ -8,11 +8,34 @@
     width: 400px; 
     height: 400px; 
     text-align: left;
-    border: 3px solid transparent;
-    background-color: gray;
+    border: 3px solid;   
+    border-top-color: brown;
+    border-right-color: green;
+    border-left-color: aquamarine;
+    border-bottom-color:blueviolet;
+    border-bottom-width: 10px;
+    background-image: url(https://i.pinimg.com/originals/c1/42/09/c1420952bcfb08a0a5604a52103444f3.jpg);
     margin-left: 450px;
+    word-spacing: 7px;
+
+}
+
+ul li{
+    /*Como achico la imagen*/
+    list-style-image: url(chica.png);
+    list-style-position:inside ;
+    text-align: left;
 
 }
 .violeta{
 
+}
+/*hover active visited*/
+a:hover{
+    color:yellow;
+    text-transform: lowercase;
+}
+
+.hola{
+    letter-spacing: 5px;
 }
