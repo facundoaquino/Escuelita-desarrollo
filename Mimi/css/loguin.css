@@ -22,6 +22,9 @@
     /* left:20px; */
     /* bottom:-295px; */
 }
+a{
+    text-decoration: none;
+}
 h1{
     font-size: 24px;
 }
@@ -73,12 +76,14 @@ header{
 .telefono{
     display: block;
     padding-bottom: 15px;
+    padding-left: 20px;
     width: 100%;
     border: grey;
     border-style: groove;
     border-width: thin;
     border-radius: 0.25rem;
-}
+    text-align: justify;
+  }
 
 .btn_continuar{
     display: inline-block;
