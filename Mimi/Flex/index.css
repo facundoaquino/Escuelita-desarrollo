@@ -1,0 +1,25 @@
+/* flex-direction: elegir dirección vertical u horizontal. */
+/* flex-wrap: ¿se hará multilínea cuando llegue al limite? */
+/* flex-flow: abreviación de propiedades */
+/* justify-content: alinear horizontalmente a los hijos si el padre es “fila” o verticalmente si el padre es “columna” */
+/* align-items: alinea verticalmente a los hijos (si el padre es “columna”) */
+/* align-content: alinea verticalmente a los hijos cuando son multilínea */
+/*row,column/wrap(para que siga la linea)/flex-flow/justify-content*/
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+}
+main{
+    display: flex;
+    flex:1;
+}
+.columna1,.columna2,.columna3{
+    background-color: coral;
+    padding: 1em;
+    margin: 1px;
+}
+header,footer{
+    background-color: aquamarine;
+    margin: 1px;
+}

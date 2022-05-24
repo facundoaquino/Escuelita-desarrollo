@@ -1,6 +1,9 @@
-/*.cabeza{
-    background-color: #fff159;
-    /*padding: 45px; /*PARA AGRANDAR O ACHICAR LO QUE OCUPE*/
+/* *{ */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: content-box; */
+/* } */
+/*  */
 .imge{
     margin-bottom: 30px;
     margin-left: 80px;
